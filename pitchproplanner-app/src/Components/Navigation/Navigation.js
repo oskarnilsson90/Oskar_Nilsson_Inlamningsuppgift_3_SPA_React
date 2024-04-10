@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 const LINKS = [
     { href: '/', text: 'Home', description: 'Go to home page'},
-    { href: '/team', text: 'My Team', description: 'Manage my team'},
-    { href: '/training', text: 'My Training Sessions', description: 'Manage my training sessions'},
-    { href: '/about', text: 'About/Contact', description: 'About PitchPro planner and contact info'},
+    { href: '/teams', text: 'My Teams', description: 'Manage my teams'},
+    { href: '/trainings', text: 'My Trainings', description: 'Manage my training sessions'},
+    { href: '/about', text: 'About/Contact', description: 'About PitchPro Planner and contact info'},
 ]
 
 export default function Navigation(){
