@@ -4,10 +4,10 @@ import Image from "next/image";
 export default function TeamsPage(){
 
     const teams = [
-        { id: 1, name: 'Lag A', imageUrl: '/pitch.png' },
-        { id: 2, name: 'Lag B', imageUrl: '/pitch.png' },
-        { id: 3, name: 'Lag C', imageUrl: '/pitch.png' },
-        { id: 4, name: 'Lag D', imageUrl: '/pitch.png' },
+        { id: 1, name: 'Team A', imageUrl: '/pitch.png' },
+        { id: 2, name: 'Team B', imageUrl: '/pitch.png' },
+        { id: 3, name: 'Team C', imageUrl: '/pitch.png' },
+        { id: 4, name: 'Team D', imageUrl: '/pitch.png' },
       ];
 
     return (
