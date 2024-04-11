@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Footer(){
     return (<div className={styles.description}>
         <p>
-          Oskar Nilsson ⚽
+          PitchPro Planner ⚽
         </p>
         <div>
           <Link
