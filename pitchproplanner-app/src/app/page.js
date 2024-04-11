@@ -16,6 +16,11 @@ export default function Home() {
         />
       </div>
 
+      <div className={styles.center}>
+        <p className={styles.description}>An innovative and customizable training planning application</p>
+      </div>
+
+      
     </>
   );
 }
