@@ -19,9 +19,11 @@ export default function RootLayout({ children }) {
 
         <main className={styles.main}>    
 
-          <Navigation />
+          <Navigation className={styles.navigation} />
 
-          {children}
+          <div className={styles.content}>
+            {children}
+          </div>
 
           <Footer />
 

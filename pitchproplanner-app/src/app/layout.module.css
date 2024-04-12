@@ -14,8 +14,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem;
+    padding: 6rem 1rem;
     min-height: 100vh;
+  }
+
+  .content {
+    order: 1; /* Flytta children (content) till toppen */
+  }
+
+  .navigation {
+    order: 2; /* Flytta Navigation till botten */
   }
 }
 

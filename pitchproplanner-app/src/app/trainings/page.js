@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from "./page.module.css";
 import Image from "next/image";
 
@@ -13,7 +14,7 @@ export default function TrainingsPage(){
     return (
         <div className={styles.container}>
             <h1 className={styles.header}>Trainings Page</h1>
-            <button className={styles.btn}><span>➕</span> Add New Training</button>
+            <Link href={"/exercises"}  className={styles.btn}><span>➕</span> Add New Training</Link>
             <div className={styles.trainingsGrid}>
                 {trainings.map(training => (
                 <div key={training.id} className={styles.trainingCard}>

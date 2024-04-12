@@ -5,6 +5,7 @@ const LINKS = [
     { href: '/', text: 'Home', description: 'Go to home page'},
     { href: '/teams', text: 'My Teams', description: 'Manage my teams'},
     { href: '/trainings', text: 'My Trainings', description: 'Manage my training sessions'},
+    { href: '/exercises', text: 'Exercises', description: 'Library of exercises'},
     { href: '/about', text: 'About/Contact', description: 'About PitchPro Planner and contact info'},
 ]
 

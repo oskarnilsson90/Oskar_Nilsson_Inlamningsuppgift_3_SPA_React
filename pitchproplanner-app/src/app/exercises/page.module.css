@@ -33,7 +33,7 @@
       transform: translateX(4px);
     }
 }
-  
+
 @media (prefers-reduced-motion) {
     .btn:hover span {
       transform: none;
@@ -45,82 +45,83 @@
     justify-content: center;
 }
 
-  .trainingsGrid {
+.exercisesGrid {
     display: grid;
     grid-template-columns: repeat(4, minmax(25%, auto));
     max-width: 100%;
     width: var(--max-width);
-  }
-  
-  .trainingCard {
+}
+
+.exerciseCard {
     padding: 1rem 1.2rem;
     border-radius: var(--border-radius);
     background: rgba(var(--card-rgb), 0);
     border: 1px solid rgba(var(--card-border-rgb), 0);
     transition: background 200ms, border 200ms;
-  }
-  
-  .trainingCard span {
+}
+
+.exerciseCard span {
     display: inline-block;
     transition: transform 200ms;
-  }
-  
-  .trainingCard h2 {
+}
+
+.exerciseCard h2 {
     font-weight: 600;
     margin-bottom: 0.7rem;
-  }
-  
-  .trainingCard p {
+}
+
+.exerciseCard p {
     margin: 0;
     opacity: 0.6;
     font-size: 0.9rem;
     line-height: 1.5;
     text-wrap: balance;
-  }
+}
 
-  .trainingCard:hover {
+.exerciseCard:hover {
     transform: translateY(-5px);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-  
-.trainingImage {
-  max-width: 100%;
-  margin-bottom: 20px;
+
+.exerciseImage {
+    max-width: 100%;
+    margin-bottom: 20px;
 }
+
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  text-align: center;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    text-align: center;
+    font-size: 0.85rem;
+    max-width: var(--max-width);
+    width: 100%;
+    z-index: 2;
+    font-family: var(--font-mono);
 }
 
 .description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
-}
+    position: relative;
+    margin: 0;
+    padding: 1rem;
+    background-color: rgba(var(--callout-rgb), 0.5);
+    border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+    border-radius: var(--border-radius);
+  }
 
 @media (hover: hover) and (pointer: fine) {
-  .trainingCard:hover {
+  .exerciseCard:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
   }
 
-  .trainingCard:hover span {
+  .exerciseCard:hover span {
     transform: translateX(4px);
   }
 }
 
 @media (prefers-reduced-motion) {
-  .trainingCard:hover span {
+  .exerciseCard:hover span {
     transform: none;
   }
 }
@@ -131,18 +132,18 @@
     padding: 4rem;
   }
 
-  .trainingsGrid {
+  .exercisesGrid {
     grid-template-columns: 1fr;
     margin-bottom: 1rem;
     max-width: 320px;
     text-align: center;
   }
 
-  .trainingCard {
+  .exerciseCard {
     padding: 1rem 2.5rem;
   }
 
-  .trainingCard h2 {
+  .exerciseCard h2 {
     margin-bottom: 0.5rem;
   }
 
@@ -185,7 +186,7 @@
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-  .trainingsGrid {
+  .exercisesGrid {
     grid-template-columns: repeat(2, 50%);
     width: 650px;
   }
