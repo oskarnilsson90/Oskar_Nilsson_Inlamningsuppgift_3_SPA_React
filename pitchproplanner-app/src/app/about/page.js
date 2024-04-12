@@ -30,8 +30,8 @@ export default function AboutPage(){
                     For customer support, please reach out via one of the following methods:
                 </p>
                 <ul>
-                    <li>Chat: <Link href="/" className={styles.aboutLink}>Chat with us</Link></li>
-                    <li>Email: <Link href="mailto:support@example.com" className={styles.aboutLink}>support@example.com</Link></li>
+                    <li>Chat: <Link href="/"><button className={styles.aboutLink}>Chat whith us</button></Link></li>
+                    <li>Email: <Link href="mailto:support@example.com"><button className={styles.aboutLink}>support@example.com</button></Link></li>
                     <li>Phone: +1234567890</li>
                 </ul>
             </div>

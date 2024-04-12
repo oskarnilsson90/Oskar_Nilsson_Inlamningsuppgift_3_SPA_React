@@ -71,9 +71,26 @@
 }
 
 .aboutLink{
-    transition: color ease-in-out 0.4s;
+  padding: 0.1rem 0.3rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  transition: background 200ms;
 }
 
-.aboutLink:hover{
-    color: red;
+@media (hover: hover) and (pointer: fine) {
+  .aboutLink:hover {
+    cursor: pointer;
+    background: #007bff;
+  }
+
+  .aboutLink:hover span {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .aboutLink:hover span {
+    transform: none;
+  }
 }
