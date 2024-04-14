@@ -1,8 +1,11 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 
+// Component: TeamsPage
+// Description: Represents the Teams Page, displaying a list of teams with options to add new teams and edit existing ones.
 export default function TeamsPage(){
 
+    // Array of teams data
     const teams = [
         { id: 1, name: 'Team A', imageUrl: '/pitch.png' },
         { id: 2, name: 'Team B', imageUrl: '/pitch.png' },

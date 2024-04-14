@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+// Component: Home
+// Description: Represents the Home Page of the application, displaying the logo and a description.
 export default function Home() {
   return (
     <>

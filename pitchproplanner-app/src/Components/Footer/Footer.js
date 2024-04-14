@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from './Footer.module.css';
 import Link from 'next/link';
 
+// Component: Footer
+// Description: Represents the footer section of the application, displaying the application name and a link to the creator's GitHub profile.
 export default function Footer(){
     return (<div className={styles.description}>
         <p>

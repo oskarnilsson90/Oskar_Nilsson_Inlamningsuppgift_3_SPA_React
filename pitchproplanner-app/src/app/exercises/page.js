@@ -2,7 +2,12 @@ import Link from 'next/link';
 import styles from "./page.module.css";
 import Image from 'next/image';
 
+
+// Component: ExercisesPage
+// Description: Represents the Library of Exercises page, displaying a list of exercises with options to add new exercises and edit existing ones.
 export default function ExercisesPage() {
+
+    // Array of exercises data
     const exercises = [
         { id: 1, type: 'Exercise A', imageUrl: '/pitch.png', description: 'Description of Exercise A' },
         { id: 2, type: 'Exercise B', imageUrl: '/pitch.png', description: 'Description of Exercise B' },

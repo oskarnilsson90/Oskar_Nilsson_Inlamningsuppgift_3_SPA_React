@@ -2,8 +2,11 @@ import Link from 'next/link';
 import styles from "./page.module.css";
 import Image from "next/image";
 
+// Component: TrainingsPage
+// Description: Represents the Trainings Page, displaying a list of trainings with options to add new trainings and start/edit existing ones.
 export default function TrainingsPage(){
 
+    // Array of training data
     const trainings = [
         { id: 1, name: 'Training A', team: 'Team A', imageUrl: '/pitch.png', description: 'Description of Training A' },
         { id: 2, name: 'Training B', team: 'Team B', imageUrl: '/pitch.png', description: 'Description of Training B' },
