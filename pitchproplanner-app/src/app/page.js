@@ -12,8 +12,8 @@ export default function Home() {
           className={styles.logo}
           src="/OIG3.jpg"
           alt="PitchPro planner Logo"
-          width={384}
-          height={384}
+          width={284}
+          height={284}
           priority
         />
       </div>
